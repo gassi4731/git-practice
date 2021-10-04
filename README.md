@@ -1,15 +1,19 @@
-# ハンズオン！ Github講座
-MoveOnHackathon2のハンズオン！ Github講座の資料です。
+# ハンズオン！ Github 講座
+
+MoveOnHackathon2 のハンズオン！ Github 講座の資料です。
 
 ## 仕様
-Marpを使用して、Markdownからスライドに書き出し
+
+Marp を使用して、Markdown からスライドに書き出し
 
 ## 書き出しのやり方
+
 ```bash
-$ marp --pdf --allow-local-files --theme custom.css --html keynote.md
+$ marp --pdf --allow-local-files --theme custom.css --html presentation.md
 ```
 
 ## Thanks
-- git/GitHub基礎
-- GitHubでプルリクエストを出そう
-- GitHub導入手順
+
+- git/GitHub 基礎
+- GitHub でプルリクエストを出そう
+- GitHub 導入手順
