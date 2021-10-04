@@ -6,6 +6,7 @@ Marpを使用して、Markdownからスライドに書き出し
 
 ## 書き出しのやり方
 ```bash
+$ marp --pdf --allow-local-files --theme custom.css --html keynote.md
 ```
 
 ## Thanks
