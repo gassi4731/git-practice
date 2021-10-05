@@ -11,6 +11,7 @@ backgroundImage: url('img/slidebg-usume-02.png')
 MoveOnHackathon2 by がっしー
 
 ---
+
 <!--_class: body-->
 
 # 対象
@@ -19,15 +20,17 @@ MoveOnHackathon2 by がっしー
 - Git・Github に触れたことがない初心者
 
 ---
+
 <!--_class: body-->
 
 # 目次
 
 - Git について
 - 実際にコマンドを入力してみよう
-- +αの使い方を知ろう
+- +α の使い方を知ろう
 
 ---
+
 <!--_class: body-->
 
 # Git ってなんだ?
@@ -40,6 +43,7 @@ Git の公式 HP を見てみると、
 と書いてある。
 
 ---
+
 <!--_class: body-->
 
 # Git = 分散型バージョン管理システム
@@ -57,6 +61,7 @@ Git の公式 HP を見てみると、
 </div>
 
 ---
+
 <!--_class: body-->
 
 # 差分とは?
@@ -67,6 +72,7 @@ Git の公式 HP を見てみると、
 ![diff.svg](img/diff.svg)
 
 ---
+
 <!--_class: body-->
 
 # 差分とは?
@@ -77,6 +83,7 @@ Git の公式 HP を見てみると、
 > この差分を保存するときに使うのがコミット！！
 
 ---
+
 <!--_class: body-->
 
 # コミットってなんだ？
@@ -86,6 +93,7 @@ Git の公式 HP を見てみると、
 ![](img/commit.svg)
 
 ---
+
 <!--_class: body-->
 
 # コミットが集まると..!?
@@ -108,11 +116,13 @@ Git の公式 HP を見てみると、
 </div>
 
 ---
+
 <!--_class: body-->
 
 # コンフリクトとは
 
 ---
+
 <!--_class: body-->
 
 # Git と Github の違い
@@ -122,6 +132,7 @@ Git の公式 HP を見てみると、
 # 実際に使ってみよう！
 
 ---
+
 <!--_class: body-->
 
 # 注意書き
@@ -132,29 +143,52 @@ $ git init
 ```
 
 **入力しなくていい文字**
-「#の後についている文」→コメントアウトと呼ばれるもの
-「$」→はコマンドラインで打ってることを示してるだけ
+「#の後についている文」→ コメントアウトと呼ばれるもの
+「$」→ はコマンドラインで打ってることを示してるだけ
 
 ---
+
 # Github の登録
+
 完了してなかったら教えてねー！
 
 ---
+
+<!--_class: body-->
+
+# Git のインストール
+
+## Mac の場合
+
+```bash
+# Homebrewを使用して実行
+$ brew install git
+```
+
+## Windows の場合
+
+https://prog-8.com/docs/git-env-win
+
+---
+
 <!--_class: body-->
 
 # PC の環境設定
 
 ```bash
-$ git config
+# gitの設定ファイルにユーザー情報を追加！ 一度やったらOK
+$ git config --global user.email 'sample@sample.com'
+$ git config --global user.name 'Yo Higashida'
 ```
 
 ---
+
 <!--_class: body-->
 
 # Git を使おう
 
 ```bash
-# gitを初期化
+# リポジトリを初期化 / リポジトリを作成
 $ git init
 
 # すべてのファイルを追加
@@ -168,10 +202,13 @@ $ git status
 ```
 
 ---
+
 <!--_class: body-->
 
-# ローカルのGitとGithubを繋げよう
-## 1. Githubで新しいリポジトリをつくろう
+# ローカルの Git と Github を繋げよう
+
+## 1. Github で新しいリポジトリをつくろう
+
 - リポジトリ名
   - 「git-practice-メンター名」にしてみよう！
 - 権限設定（Public / Private）
@@ -179,10 +216,13 @@ $ git status
   - Private…自分と招待したメンバーのみ見られる
 
 ---
+
 <!--_class: body-->
 
-# ローカルのGitとGithubを繋げよう
-## 2. remoteコマンドで繋げよう
+# ローカルの Git と Github を繋げよう
+
+## 2. remote コマンドで繋げよう
+
 ```bash
 # ブランチを設定しよう！（今は理解できてなくて大丈夫）
 $ git branch -M main
@@ -191,28 +231,33 @@ $ git branch -M main
 $ git remote add origin https://github.com/penguin4731/git-practice-gassi.git
 ```
 
-## 3. pushしよう
+## 3. push しよう
+
 ```
 $ git push origin main
 ```
 
 ---
+
 <!--_class: body-->
 
-# git pullを体験しよう
+# git pull を体験しよう
 
 ---
 
-# +αの使い方
+# +α の使い方
+
 ブランチやプルリクエストについて
 ※ここまでの内容を復習しておいても大丈夫！
 
 ---
+
 <!--_class: body-->
 
 # ブランチってなんだ？
 
 ---
+
 <!--_class: body-->
 
 # プルリクエストとは
@@ -224,6 +269,7 @@ $ git push origin main
 # 実際に触ってみよう
 
 ---
+
 <!--_class: body-->
 
 # ブランチを作成して切り替えよう
@@ -236,23 +282,29 @@ $ git branch branch_name
 $ git checkout branch_name
 ```
 
-> ```$ git switch -c branch_name```でもできる！地味におすすめ
-> branch_nameは、ブランチの名前なので自由に決めよう！
+> `$ git switch -c branch_name`でもできる！地味におすすめ
+> branch_name は、ブランチの名前なので自由に決めよう！
 
 ---
+
 <!--_class: body-->
+
 # プルリクエストを出してみよう
 
 <img src="img/github-mainpage-left.png" width="70%">
 <img src="img/github-fork.png" width="60%">
 
 ---
+
 <!--_class: body-->
+
 # プルリクエストをマージしてみよう
+
 ## コードレビューしてみよう
+
 ---
 
 # ご清聴ありがとうございました!!
+
 少しでもお役に立てればうれしいです！
 ちなみに、このスライドはコードから生成してます！！https://github.com/penguin4731/git-practice
-
