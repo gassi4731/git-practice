@@ -3,9 +3,10 @@ marp: true
 theme: custom
 paginate: true
 footer: "MoveOnHackathon2 ハンズオン! Github講座"
+backgroundImage: url('img/slidebg-usume-02.png')
 ---
 
-# **ハンズオン! Github 講座**
+# ハンズオン! Github 講座
 
 MoveOnHackathon2 by がっしー
 
