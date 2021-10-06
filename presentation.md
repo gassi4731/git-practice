@@ -261,6 +261,8 @@ $ git push origin main
 <!--_class: body-->
 
 # プルリクエストとは
+裂けた糸を作ったあとは、それを結ぶ必要があります。
+「これ、その先に結んで！」って伝えるんがプルリクエスト！
 
 ---
 
@@ -288,6 +290,9 @@ $ git checkout branch_name
 <!--_class: body-->
 
 # プルリクエストを出してみよう
+
+<img src="img/github-mainpage-left.png" width="70%">
+<img src="img/github-fork.png" width="60%">
 
 ---
 
