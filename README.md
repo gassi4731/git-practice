@@ -1,6 +1,6 @@
 # ハンズオン！ Github 講座
 
-MoveOnHackathon2 のハンズオン！ Github 講座の資料です。(書き途中）
+MoveOnHackathon2 のハンズオン！ Github 講座の資料です。(書き途中）  
 Zennに移行しました→ https://zenn.dev/penguin4731/articles/cab408dab5fb43
 
 ## 仕様
