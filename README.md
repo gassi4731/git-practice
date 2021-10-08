@@ -17,5 +17,4 @@ https://github.com/penguin4731/git-practice/pull/7
 
 ## 解説記事
 
-- [Git の概念や Github の使い方](https://zenn.dev/penguin4731/articles/cab408dab5fb43)
-- [Github Desktop の使い方](https://zenn.dev/penguin4731/articles/9341d79a63cffd)
+- [Git / Githubを使ったチーム開発](https://zenn.dev/penguin4731/books/11bee5738e367f)
