@@ -1,0 +1,15 @@
+git clone https://github.com/SuperHiroki/git-practice
+git remote add upstream  https://github.com/gassi4731/git-practice
+git pull upstream main
+git reset --hard upstream/main
+
+
+git switch -c hiroki-jogo-edit
+git add .
+git commit -m "PRの練習"
+git push origin hiroki-jogo-edit
+
+git remote -v
+git log
+git branch
+
